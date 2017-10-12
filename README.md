@@ -49,5 +49,5 @@ And my full project is here: [pmt_midterm.ino](pmt_midterm.ino)
 
 **Wiring Diagram**
 
-![Wiring Diagram](Screenshot from 2017-10-12 00-15-20.png)
+![Wiring Diagram](WIRINGMIDTERM2.png)
 I was unable to work on fritzing so this diagram is analogous.
