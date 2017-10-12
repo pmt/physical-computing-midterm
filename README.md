@@ -45,7 +45,7 @@ void cloudOn(const char *event, const char *data){
 }
 ```
 
-but also link to your project's full code in this repository:  [pmt_midterm.ino](pmt_midterm.ino)
+And my full project is here: [pmt_midterm.ino](pmt_midterm.ino)
 
 **Wiring Diagram**
 
