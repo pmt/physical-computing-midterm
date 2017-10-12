@@ -1,19 +1,19 @@
 # Midterm IoT Project
 
-Name:  
+Name:  PATRICIA TORVALDS pmt / pmt15
 
-Date:
+Date: 10.11.17
 
-## Project: "Brand Name" or Device Name
+## Project: TRASH CLOUDS
 
 ### Conceptual Description
 
-/// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
-
+My project in conjunction with @tracylooloo engages in the ideas of e-waste. While Tracy Lu's project is a trash can, mine represents the physical fallout of electronic waste in the form of a "toxic cloud"/"trash cloud" actually made of 3D printer scraps. The trash cloud is filled with red and yellow LED lights which turn on when either someone presses the button on my piece, or when someone removes the lid of Tracy's trash can. Often, software users end their interactions with so-called trash at the end of an electronic's lifespan; my piece extends that lifespan and makes trash visible.
 ### Form
 
 /// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
 Explain your design choices here and include images that document your project's material embodiment. ///
+My piece 
 
 **Finished Enclosure:**
 
