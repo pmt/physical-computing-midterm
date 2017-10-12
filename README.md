@@ -24,22 +24,28 @@ My piece is, importantly, largely mad from "trash." The orange smokestack suppor
 
 
 ### Technical Details
-//   
-Here you should give an overview of the technical operation of your device, including:
-* A wiring diagram
-* list of hardware used
-* Explanation of your
-* Link to code   
-
-//
-
-You can include code snippets here:
+My project works directly with Tracy Lu's in order to deliver its full message. It uses two push buttons and three LEDs to accomplish this. While the hardware seems minimalistic, it is neatly packaged in that all the LEDs are connected but each button serves a unique purpose. One button, symbolic of the labor used to clean up e-waste, lights the toxic cloud. The other button sends a message back to Tracy's device, symbolic of how while e-waste may feel like it has negligible impact it is actually inescapable.
+The code itself uses Particle.publish and Particle.subscribe to send and receive messages, then executes them in the cloudOn function.
+```
+  if (buttonState == HIGH) {
+    Particle.publish("patricia_tracy_pmt15_tl177", "rainbow"); // replace with your team's name and choose a color for your button
+    delay(2000);
+  }
+```
+...
 
 ```
-Particle.subscribe("Execute", messageParse, MY_DEVICES);
+void cloudOn(const char *event, const char *data){
+    thing = data;
+    if (thing == "cloud"){
+    digitalWrite(ledPin, HIGH);
+    delay(1000);
+    digitalWrite(ledPin, LOW); }
+    else{digitalWrite(ledPin, LOW); }
+}
 ```
 
-but also link to your project's full code in this repository:  [photon.ino](photon.ino)
+but also link to your project's full code in this repository:  [pmt_midterm.ino](pmt_midterm.ino)
 
 **Wiring Diagram**
 
